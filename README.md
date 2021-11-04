@@ -4,6 +4,7 @@ Codepub x Codeexcursion: workshop on creative coding
 ## Folder structure
 This is a small overview of what you will find in this repository.
 
+```
 .
 ├── dependencies/           # built and bundled files and index.html 
 │           ├── p5.js       # The p5 library
@@ -14,6 +15,7 @@ This is a small overview of what you will find in this repository.
 │           └── x.js        # Have a look, maybe you find something you like
 ├── README.md               # this file
 ├── index.html              # the entry point to all your content
+```
 
 ## Working with p5.riso
 
