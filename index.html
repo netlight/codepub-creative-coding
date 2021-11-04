@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <script src="dependencies/p5.js"></script>
+  <script src="dependencies/p5.riso.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body>
+    <script>
+    function setup(){
+        createCanvas(1000, 1000);
+      
+        let orange = new Riso("orange");
+        orange.stroke(255);
+        orange.strokeWeight(5);
+        orange.rect(50, 50, 200, 200);
+        drawRiso();
+      }
+    </script>
+</body>
+</html>
