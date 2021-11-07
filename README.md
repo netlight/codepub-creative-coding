@@ -6,6 +6,7 @@ This is a small overview of what you will find in this repository.
 
 ```
 .
+├── assets/                 # Images you can load in -- you can also use a URL to any image on the internet 
 ├── dependencies/           # built and bundled files and index.html 
 │           ├── p5.js       # The p5 library
 │           └── p5.riso.js  # The riso library including colors
@@ -18,6 +19,7 @@ This is a small overview of what you will find in this repository.
 ```
 
 ## Working with p5.riso
+For more on the p5.riso library, check out [this website](https://antiboredom.github.io/p5.riso/#ex).
 
 ### Local development
 To work with riso locally, all you need is included in this repository. Open a terminal and follow this guide to make it work:
