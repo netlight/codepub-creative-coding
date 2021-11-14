@@ -63,10 +63,22 @@ localhost:8080
 ```
 Now your content should be showin in your browser, great work! 
 
+#### Troubleshooting
+The riso library will keep on redrawing your riso objct on the canvas unless you specify other behviour. For your computer and the web editor this is very heavy both on your CPU and your memory. If your browser keeps freezing or you can see a big increase in CPU/Memory usage this is probably the reason. For most cases you want to create something static without the need for continuous redrawing, remember to include:
+```
+noLoop();
+```
+after you draw your riso object to the canvas. Check out the [`several-objects.js`](https://github.com/netlight/codepub-creative-coding/blob/workshop/work-in-progress/examples/several-objects.js#L73) file, for an example of how to include this. 
+
 ### Web-editor based development
 To try out the different samples, simply paste them (from the `examples` folder directly into the online editor found here: https://editor.p5js.org/1wo2494ta1/sketches/gcOJsHdR2
 
 ## Resources
 
-Read more about Riso here: https://antiboredom.github.io/p5.riso/   or check out the Riso repository on Github: https://github.com/antiboredom/p5.riso
+* Read more about Riso here: https://antiboredom.github.io/p5.riso/ 
+* Check out the Riso repository on Github: https://github.com/antiboredom/p5.riso
 
+### The Riso.p5.js cheat sheet:
+_Use this when you are in doubt of how to use certain function_
+
+![Cheat sheet](https://pbs.twimg.com/media/Dy9-5PWUcAEvI3s.jpg)
