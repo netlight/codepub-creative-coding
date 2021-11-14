@@ -7,13 +7,14 @@ This is a small overview of what you will find in this repository.
 ```
 .
 ├── assets/                 # Images you can load in -- you can also use a URL to any image on the internet 
+│           ├── <name>.png  # Image file
 ├── dependencies/           # built and bundled files and index.html 
 │           ├── p5.js       # The p5 library
 │           └── p5.riso.js  # The riso library including colors
 ├── examples/               # dependencies 
 │           ├── circles.js  # Riso circle art
 │           ├── squares.js  # Riso squares art
-│           └── x.js        # Have a look, maybe you find something you like
+│           └── <name>.js   # Have a look, maybe you find something you like
 ├── README.md               # this file
 ├── index.html              # the entry point to all your content
 ```
